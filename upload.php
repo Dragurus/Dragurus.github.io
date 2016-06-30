@@ -1,1 +1,3 @@
-echo "Swag";
+<?php
+  echo "Swag PHP upload!";
+?>
