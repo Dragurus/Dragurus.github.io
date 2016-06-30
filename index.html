@@ -1,14 +1,9 @@
 <!DOCTYPE html>
+<?php include("upload.php"); ?>
 <html>
-	<head>
-	</head>
 	<body>
 		<p>Updated, now with PHP</p>
-		<?php 
-			$stuff = $_POST["Testing"];
-			echo $stuff;
-		?>
-		<form method="POST" action="index.html"> 
+		<form method="POST" action="upload.php"> 
 			<input tyle="text" name="Testing" value=""/>
 		</form>
 	</body>
